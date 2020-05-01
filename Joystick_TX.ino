@@ -23,9 +23,8 @@
 #include <RF24.h>
  
 /*----- Declare all constant pin to be used ----*/
- 
-#define CE_PIN   7  // Uno= 9     // Mega = 48
-#define CSN_PIN  8  // Uno= 10    // Mega = 53
+#define CE_PIN   9  // Uno= 9     // Mega = 48
+#define CSN_PIN  10  // Uno= 10    // Mega = 53
 
 #define JOYSTICK_X A0
 #define JOYSTICK_Y A1

@@ -80,7 +80,7 @@ void nrf24l01() {
       if(joystick[1] <=55) { motorspeed = 255; turnright(); }
       if(joystick[1] >=60 && joystick[1] <=65) { halt(); motorspeed=0; }
       Serial.print("\tX-Speed: ");      
-      Serial.print(motorspeed);
+      Serial.println(motorspeed);
 
       // place your additional joystick commands received from the TX
       //
